@@ -22,6 +22,7 @@ namespace Pc_dcsWatcher
         {
             InitializeComponent();
             notifyIcon.Icon = System.Drawing.SystemIcons.Application;
+            timer.Interval = Properties.Settings.Default.CheckInterval;
         }
 
         private void PcdcsWatcher_Load(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace Pc_dcsWatcher
 
             bool connected = false; 
             do {
-                connected = opc.Connect("localhost", "Takebishi.Dxp");
+                connected = opc.Connect(Properties.Settings.Default.HostName, Properties.Settings.Default.OPCname);
                 //if ( connected == false) {
                 //    MessageBox.Show("The connection to OPC server failed.", "OPC Connection Error", 
                 //            MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -47,7 +48,7 @@ namespace Pc_dcsWatcher
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Is it okay to stop monitoring PC-DCS?", "Ending Program", 
+            if (MessageBox.Show(Lang.ExitMsg, Lang.ExitTitle, 
                         MessageBoxButtons.YesNo, MessageBoxIcon.Question)
                     == System.Windows.Forms.DialogResult.Yes) {
                 Close();
@@ -56,7 +57,7 @@ namespace Pc_dcsWatcher
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            if (Process.GetProcessesByName("hke").Count() > 0)
+            if (Process.GetProcessesByName(Properties.Settings.Default.TargetProgName).Count() > 0)
             {
                 pCheckCounter = (pCheckCounter >= 0) ? pCheckCounter + 1 : 0;
             }
@@ -65,18 +66,18 @@ namespace Pc_dcsWatcher
                 pCheckCounter = (pCheckCounter <= 0) ? pCheckCounter - 1 : 0;
             }
 
-            if (pCheckCounter > 1)
+            if (pCheckCounter > Properties.Settings.Default.StartCount)
             {
-                string[] target = new string[] { "DEV1.B10A1", };
-                object[] val = new object[] { 1 };
+                string[] target = new string[] { Properties.Settings.Default.TargetAdr, };
+                object[] val = new object[] { Properties.Settings.Default.StartValue };
                 int[] nErrorArray;
 
                 opc.Write(target, val, out nErrorArray);
             }
-            if (pCheckCounter < -1) 
+            if (pCheckCounter < Properties.Settings.Default.StopCount) 
             {
-                string[] target = new string[] { "DEV1.B10A1", };
-                object[] val = new object[] { 0 };
+                string[] target = new string[] { Properties.Settings.Default.TargetAdr, };
+                object[] val = new object[] { Properties.Settings.Default.StopValue };
                 int[] nErrorArray;
 
                 opc.Write(target, val, out nErrorArray);

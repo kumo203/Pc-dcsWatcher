@@ -7,3 +7,7 @@ C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.exe
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.pdb
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Release\ja\Pc-dcsWatcher.resources.dll
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc_dcsWatcher.Lang.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc_dcsWatcher.Lang.ja.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\ja\Pc-dcsWatcher.resources.dll

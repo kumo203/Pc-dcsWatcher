@@ -25,8 +25,8 @@ namespace Pc_dcsWatcher
             string progName = Path.GetFileNameWithoutExtension(Assembly.GetEntryAssembly().Location);
             if (Process.GetProcessesByName(progName).Count() > 1)
             {
-                MessageBox.Show(string.Format("{0} is already running.", progName), 
-                        "Startup Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(string.Format("{0}{1}", progName, Lang.MultiStartErrMsg), 
+                        Lang.MultiStartErrTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -45,7 +45,7 @@ namespace Pc_dcsWatcher
         {
             try
             {
-                ShowErrorMessage(e.Exception, "Exception rose from main thread.");
+                ShowErrorMessage(e.Exception, Lang.AppThreadExpMsg);
             }
             finally
             {
@@ -61,7 +61,7 @@ namespace Pc_dcsWatcher
             try
             {
                 //エラーメッセージを表示する
-                ShowErrorMessage(e.ExceptionObject as Exception, "Exception rose from sub threads.");
+                ShowErrorMessage(e.ExceptionObject as Exception, Lang.UnhandledExpMsg);
             }
             finally
             {
@@ -74,10 +74,10 @@ namespace Pc_dcsWatcher
         public static void ShowErrorMessage(Exception ex, string extraMessage)
         {
             MessageBox.Show(extraMessage + " \n――――――――\n\n" +
-              "Error Happened\n\n" +
-              "[Error Message]\n" + ex.Message + "\n\n" +
-              "[Error Information]\n" + ex.StackTrace, 
-              "Exception Handling Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+              Lang.ExpErrMsg1 + "\n\n" +
+              Lang.ExpErrMsg2 + "\n" + ex.Message + "\n\n" +
+              Lang.ExpErrMsg3 + "\n" + ex.StackTrace, 
+              Lang.ExpErrTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
