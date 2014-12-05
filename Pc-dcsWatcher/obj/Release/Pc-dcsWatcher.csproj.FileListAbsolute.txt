@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Release\Pc-dcsWatcher.exe.config
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Release\Pc-dcsWatcher.exe
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Release\Pc-dcsWatcher.pdb
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Release\DxpSimpleAPI.dll
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc_dcsWatcher.PcdcsWatcher.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc_dcsWatcher.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.exe
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Release\Pc-dcsWatcher.pdb

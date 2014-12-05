@@ -2,9 +2,10 @@ c:\users\administrator\documents\visual studio 2013\Projects\Pc-dcsWatcher\Pc-dc
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\Pc-dcsWatcher.exe.config
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\Pc-dcsWatcher.exe
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\Pc-dcsWatcher.pdb
-C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc_dcsWatcher.PcdcsWatcher.resources
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc_dcsWatcher.Properties.Resources.resources
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.exe
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.pdb
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\DxpSimpleAPI.dll
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.csprojResolveAssemblyReference.cache
