@@ -119,32 +119,42 @@
   </resheader>
   <data name="AppThreadExpMsg" xml:space="preserve">
     <value>UIスレッドから生じた例外</value>
+    <comment>メイン処理からの例外発生</comment>
   </data>
   <data name="ExitMsg" xml:space="preserve">
     <value>プログラムを終了します。よろしいですか？</value>
+    <comment>プログラム終了確認メッセージ</comment>
   </data>
   <data name="ExitMsgTitle" xml:space="preserve">
     <value>プログラム終了</value>
+    <comment>プログラム終了確認タイトル</comment>
   </data>
   <data name="ExpErrMsg1" xml:space="preserve">
     <value>例外発生</value>
+    <comment>例外メッセージ１</comment>
   </data>
   <data name="ExpErrMsg2" xml:space="preserve">
     <value>【例外メッセージ】</value>
+    <comment>例外メッセージ２</comment>
   </data>
   <data name="ExpErrMsg3" xml:space="preserve">
     <value>【例外情報】</value>
+    <comment>例外メッセージ３</comment>
   </data>
   <data name="ExpErrTitle" xml:space="preserve">
     <value>例外エラー</value>
+    <comment>例外タイトル</comment>
   </data>
   <data name="MultiStartErrMsg" xml:space="preserve">
     <value>は既に起動中です。</value>
+    <comment>二重起動エラーメッセージ</comment>
   </data>
   <data name="MultiStartErrTitle" xml:space="preserve">
     <value>起動エラー</value>
+    <comment>二重起動エラータイトル</comment>
   </data>
   <data name="UnhandledExpMsg" xml:space="preserve">
     <value>サブスレッドから生じた例外</value>
+    <comment>サブ処理からの例外発生</comment>
   </data>
 </root>

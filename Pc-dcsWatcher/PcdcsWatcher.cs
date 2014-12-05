@@ -74,7 +74,7 @@ namespace Pc_dcsWatcher
 
                 opc.Write(target, val, out nErrorArray);
             }
-            if (pCheckCounter < Properties.Settings.Default.StopCount) 
+            if (pCheckCounter <= Properties.Settings.Default.StopCount) 
             {
                 string[] target = new string[] { Properties.Settings.Default.TargetAdr, };
                 object[] val = new object[] { Properties.Settings.Default.StopValue };

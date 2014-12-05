@@ -9,3 +9,7 @@ C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.pdb
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\DxpSimpleAPI.dll
 C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc-dcsWatcher.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\bin\Debug\ja\Pc-dcsWatcher.resources.dll
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc_dcsWatcher.Lang.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\Pc_dcsWatcher.Lang.ja.resources
+C:\Users\Administrator\Documents\GitHub\Pc-dcsWatcher\Pc-dcsWatcher\obj\Debug\ja\Pc-dcsWatcher.resources.dll
